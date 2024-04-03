@@ -1,0 +1,32 @@
+.search-input {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.input {
+    width: 300px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-color: transparent;
+    border-radius: 24px;
+    padding-left: 12px;
+    color: #1d1d1d;
+    font-size: 16px;
+}
+.search-button {
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 4px 0 0 -70px;
+}
+.search-icon {
+    width: 45px !important;
+    height: 45px !important;
+    color: #1d1d1d;
+}
+
+.suggestions {
+    display: relative;
+}

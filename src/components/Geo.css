@@ -1,0 +1,27 @@
+.label {
+    margin-top: 24px;
+    margin-right: 12px;
+    font-size: 24px;
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+.geo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background-color: whitesmoke;
+    color: gray;
+    border-radius: 32px;
+    cursor: pointer;
+    border-color: transparent;
+    margin-top: 26px;
+}

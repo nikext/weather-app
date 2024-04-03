@@ -1,0 +1,44 @@
+.weather-icon {
+    width: 200px !important;
+    height: 200px !important;
+    color: whitesmoke;
+    margin-top: 16px;
+}
+.city-name {
+    color: #1d1d1d;
+    font-size: 45px;
+    margin: 12px 0;
+}
+.temperature {
+    color: #1d1d1d;
+    font-size: 32px;
+}
+.enter-city {
+    color: #1d1d1d;
+    margin-top: 24px;
+    font-size: 24px;
+}
+
+.weather-sub-details{
+    color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.weather-icon-details {
+    display: flex;
+    color: #1d1d1d;
+    width: 50px !important;
+    height: 50px !important;
+}
+.extra-margin {
+    margin-bottom: 525px;
+}

@@ -1,0 +1,33 @@
+.forecast {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #1d1d1d;
+}
+
+.forecast-geo {
+    margin-bottom: 70px;
+}
+
+.forecast-home {
+    margin-bottom: 100px;
+}
+
+.day {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.forecast-day {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-weather-icon {
+    margin-left: 12px;
+    width: 50px !important; /* !important because these icons have their own width and height, so I need to override them*/
+    height: 50px !important;
+}

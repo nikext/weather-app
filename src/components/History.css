@@ -1,0 +1,29 @@
+.cities {
+    height: 400px;
+    margin-bottom: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 24px;
+    color: #1d1d1d;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 0;
+    margin: 4px 0;
+}
+
+.city {
+    color: #1d1d1d;
+    font-size: 20px;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 32px;
+    cursor: pointer;
+}
